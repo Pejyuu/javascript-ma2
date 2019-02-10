@@ -1,10 +1,16 @@
 //MODULE ASSIGNMENT 2 - LEVEL 1
 
 1. What is a function literal?
+		A function literal is a function statement that is used as an expression.
+		You'd use this instead of declaring a function.
+
+		I'm not exactly sure when to actually use this, so would appreciate a teacher hitting me up with some more info. The texts I find on the subject does not get the point across to me.
 
 2. What is the constructor?
+		A constructor is a method to create and initialize a set of defaults in a object created by a class. Could be considered a class "blueprint".
 
 3. What does the return statement do?
+	 	A return statement passes data back out of the function it was in. You'll normally assign this data to a variable for further use.
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -13,5 +19,12 @@
 		}
 		myFunction();
 
+		The above code prints this in my console
+		- Warning: unreachable code after return statement (Firefox)
+		A return-statement stops any further code from running in a function.
+		If there is code after a return-statement, it will be declared unreachable and throw an error like the one above.
+
 
 5. Briefly describe scope in JavaScript.
+		GLOBAL is when a item is accessible GLOBALLY in the script.
+		LOCAL is when a item is only accessible LOCALY ( inside ) in the function it was declared in.
